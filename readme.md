@@ -15,7 +15,7 @@ an email template are a web browser and a text editor.
 #### HTML
 
 **HTML** stands for Hypertext Markup Language. It is a language for structuring
-documents. Contrast this with other editors you may have used in the past:
+documents. Contrast this with the output of other editors you may have used in the past:
 
 - Microsoft Word
 - PDFs
@@ -54,7 +54,7 @@ Two tags make one **element**.
 
 Elements have to **nest**. That is, every element has to be completely inside another element (like those Russian dolls).
 
-More complex documents (like webpages and emails) have many nested documents:
+More complex documents (like webpages and emails) have many nested elements:
 
 ```html
 <!doctype html>
@@ -124,7 +124,7 @@ answer the following questions:
 
 You do: Write the HTML for a recent LinkedIn email I received, using semantic markup:
 
-![](./linkedin.png)
+[![](./exercises/01-linkedin/linkedin.png)](./exercises/01-linkedin/linkedin.png)
 
 #### CSS
 
@@ -186,13 +186,9 @@ How big is the box in [box-model.html](http://www.wdidc.org/~jesse/box-model.htm
 
 You Do: CSS Crash Course
 
-In pairs, please work to complete this exercise:
-
-[CSS Review Exercise](https://github.com/ga-wdi-exercises/css-review)
+In pairs, please work to complete the 02-css-crash-course exercise
 
 Again, in pairs, please complete the LinkedIn exercise from before, this time adding styles!
-
-![](./linkedin.png)
 
 ### Tables and Responsive Design (1pm - 4pm)
 
@@ -268,13 +264,14 @@ Historically, tables were used for layout before CSS became more popular.
 Table elements should be reserved for structuring tabular data only.
 
 You do: add a third colum `State` to the above table. Separate out the city and
-state to give more structure to the tabular data.
+state to give more structure to the tabular data. Starter code is available in 
+[03-tables/](./exercises/03-tables/)
 
 ## Responsive Design
 
 Ultimately we are trying to answer the question:
 
->How do we build web applications and sites for an optimal interaction experience on a multitude of devices?
+>How do we build web applications ./exercises/03-tables/and sites for an optimal interaction experience on a multitude of devices?
 
 ### How we got here
 
@@ -297,13 +294,13 @@ One way to create optimal experiences for mobile users is a dedicated mobile sit
 
 You know you're on one when you see `m.` in the url!
 
-Compare https://m.ups.com with https://ups.com
+Compare https://m.ups.com with [https://ups.com](https://www.ups.com/?Site=Corporate&cookie=us_en_home&inputImgTag=&setCookie=yes)
 
 ![](http://imgs.xkcd.com/comics/server_attention_span.png)
 
 Avoid these... please.
 
-## The Three Components of Responsive Web Design (10 min)
+## The Three Components of Responsive Web Design
 
 1. Flexible (or Fluid) Grids
 1. Flexible Images (or Media)
@@ -312,7 +309,6 @@ Avoid these... please.
 ## Flexible Grids
 
 A grid based layout which adjusts with screen size.
-
 
 ## Flexible Images
 
@@ -456,7 +452,7 @@ Form groups with your tables to research, discuss (15 min), and demo one of the 
 
 ## You do: Convert the "Craigslist Grid"
 
-https://github.com/ga-wdi-exercises/craigslist_grid
+[Craigslist Grid](./exercises/04-craigslist-grid/)
 
 ## We do: Check it out w/ Chrome dev tools (15 min)
 
@@ -469,6 +465,8 @@ Be sure to include
 >Mobile Safari introduced the "viewport meta tag" to let web developers control the viewport's size and scale. Many other mobile browsers now support this tag, although it is not part of any web standard.  This setting makes the width of the browser’s viewport equal to the width of the device’s screen.
 
 ## Bonus: AIGA Exercise
+
+[05-aiga](./exercises/05-aiga/)
 
 ## Questions
 
