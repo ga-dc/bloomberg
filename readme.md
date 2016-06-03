@@ -271,7 +271,7 @@ state to give more structure to the tabular data. Starter code is available in
 
 Ultimately we are trying to answer the question:
 
->How do we build web applications ./exercises/03-tables/and sites for an optimal interaction experience on a multitude of devices?
+>How do we build web applications and sites for an optimal interaction experience on a multitude of devices?
 
 ### How we got here
 
